@@ -27,7 +27,7 @@ We recommend this blog for quick start with Juicebox: https://bioinformaticswork
 
 ## Installation and Running
 
-In general, the most difficult part of running this pipeline is the installation. However, installing and running the packages can depend on the specific system or cluster. We used the Mariux System held at Max Planck Institute for Molecular Genetics and followed the installation guidelines from each package. No error or problem was encountered.
+In general, the most difficult part of running this pipeline is the installation. However, difficulties of installing and running the packages can depend on the specific system or cluster. We used the Mariux System held at Max Planck Institute for Molecular Genetics and followed the installation guidelines from each package. No error or problem was encountered. 
 
 
 # Parameters used to run these packages can be found in:
