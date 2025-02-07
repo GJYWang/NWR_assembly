@@ -15,7 +15,7 @@ In our paper, Shasta 0.5.1 was used to generate the contigs from the ONT reads u
 One round of scaffolding was performed with the parameters -nodes 63 -read-s1 12 -read-s2 8 -link-s1 10 -link-s2 10
 
 - [Arima Genomics mapping pipeline](https://github.com/ArimaGenomics/mapping_pipeline) & [SALSA2](https://github.com/marbl/SALSA): The scaffolds are further scaffolded by HiC data.
-In order to run Arima Genomics mapping pipeline & SALSA2, BWA-MEM and Picard Tools need to be installed.
+In order to run Arima Genomics mapping pipeline & SALSA2, BWA-MEM and Picard Tools need to be installed. A detailed description for running the packages can be found in https://github.com/ArimaGenomics/mapping_pipeline/blob/master/Arima_Mapping_UserGuide_A160156_v03.pdf. Parameters need to be set according to the experiments setting such as restriction enzyme. 
 We conducted 5 rounds of scaffolding to achieve optimal performance.
 
 - [Racon](https://github.com/isovic/racon) & [Pilon](https://github.com/broadinstitute/pilon): Racon and Pilon are used to polish the scaffolds using short-reads
