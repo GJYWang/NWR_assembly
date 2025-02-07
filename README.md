@@ -14,11 +14,11 @@ In our paper, Shasta 0.5.1 was used to generate the contigs from the ONT reads u
 - [Scaff10X](https://github.com/wtsi-hpag/Scaff10X): Scaff10X is a package that scaffolds contigs using 10X linked reads. We followed the installation guideline in the github repository.
 One round of scaffolding was performed with the parameters -nodes 63 -read-s1 12 -read-s2 8 -link-s1 10 -link-s2 10
 
-- [Arima Genomics mapping pipeline(https://github.com/ArimaGenomics/mapping_pipeline)] & [SALSA2(https://github.com/marbl/SALSA)]: The scaffolds are further scaffolded by HiC data.
+- [Arima Genomics mapping pipeline](https://github.com/ArimaGenomics/mapping_pipeline) & [SALSA2](https://github.com/marbl/SALSA): The scaffolds are further scaffolded by HiC data.
 In order to run Arima Genomics mapping pipeline & SALSA2, BWA-MEM and Picard Tools need to be installed.
 We conducted 5 rounds of scaffolding to achieve optimal performance.
 
-- [Racon (https://github.com/isovic/racon)] & [Pilon (https://github.com/broadinstitute/pilon)]: Racon and Pilon are used to polish the scaffolds using short-reads
+- [Racon](https://github.com/isovic/racon) & [Pilon](https://github.com/broadinstitute/pilon): Racon and Pilon are used to polish the scaffolds using short-reads
 Racon was performed with default parameters.
 Pilon was performed with parameter java -Xmx512G.
 
