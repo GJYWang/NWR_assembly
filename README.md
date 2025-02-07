@@ -4,7 +4,7 @@
 
 This is a computational pipeline designed to chromosomal-level genome assembly of Northern White Rhino. It leverages several powerful tools and libraries to offer an efficient and reliable workflow for generating a high-quality reference genome using different sequencing techniques.
 
-## Dependencies
+## Packages and Dependencies
 
 This pipeline utilizes several external GitHub packages. Ensure these are installed to get started:
 
