@@ -32,11 +32,10 @@ We used default parameters to run canu.
 
 In general, the most difficult part of running this pipeline is the installation. However, difficulties of installing and running the packages can depend on the specific system or cluster. We used the Mariux System held at Max Planck Institute for Molecular Genetics and followed the installation guidelines from each package. No error or problem was encountered. 
 
-
-## Parameters used to run these packages can be found in:
+Parameters used to run these packages can be found in:
 https://www.biorxiv.org/content/10.1101/2021.12.11.472206v1
 
-## Some sample code for running these packages and tools can be found in the corresponding directories 
+Some sample code for running these packages and tools can be found in the corresponding directories 
 
 ## Contact
 
