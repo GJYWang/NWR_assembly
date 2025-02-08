@@ -25,6 +25,9 @@ Pilon was performed with parameter java -Xmx512G.
 - [Juicebox](https://github.com/aidenlab/Juicebox): Juicebox is a visualization tool for analyzing Hi-C data, allowing users to edit and improve genome assemblies.
 We recommend this blog for quick start with Juicebox: https://bioinformaticsworkbook.org/dataAnalysis/GenomeAssembly/Hybrid/Juicer_Juicebox_3dDNA_pipeline.html#gsc.tab=0
 
+- [Canu](https://github.com/marbl/canu): Canu is an assembler for long-reads. It takes longer to run compared with Shasta. We found that Canu is more accurate in mito-genome assembly and allosome assembly.
+We used default parameters to run canu. 
+
 ## Installation and Running
 
 In general, the most difficult part of running this pipeline is the installation. However, difficulties of installing and running the packages can depend on the specific system or cluster. We used the Mariux System held at Max Planck Institute for Molecular Genetics and followed the installation guidelines from each package. No error or problem was encountered. 
